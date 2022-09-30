@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Rubik Dirt', sans-serif;
+  font-weight: 100;
+}
+
+body {
+  background-image: url(assets/bg3.jpeg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #290f0f;
+}
+
+main {
+  max-width: 250px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+
+body * {
+  line-height: 160%;
+}
+
+section {
+  color: white;
+  padding-top: 4px;
+  border-radius: 10px;
+}
+
+section div {
+  background-color: #2A2634;
+  padding: 32px;
+  padding-top: 24px;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+section h2 {
+  letter-spacing: -0.47px;
+  text-align: center;
+}
+
+section p {
+  letter-spacing: -0.18px;
+  color: #A1A1AA;
+}
+
+ul {
+  list-style: none;
+  display: flex; /*deixa os itens um ao lado do outro (inline)*/
+  gap: 16px; /*espaço entre linhas e colunas*/
+  margin-top: 0px;
+  flex-wrap: wrap; /*os itens se ajustam*/
+  height: 100px;
+  width: 200px;
+}
+
+.games-list img { 
+  width: 60px;
+  border-radius: 8px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.channel-list img {
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid #443E54;
+}
+
+header {
+  padding-top: 32px;
+  height: calc(70px + 32px);
+  margin-bottom: 10px;
+}
+
+header h2, p, h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+li p {
+  color: white;
+  margin-top: 18px;
+}
