@@ -1,10 +1,8 @@
-# NLW eSports - Trilha Explorer
+# HellWeen - Interface utilizada para uma festa
 
-![preview](./.github/preview.png)
+![preview](https://github.com/Yaguu/hellween/blob/main/preview.png)
 
-Projeto construído no evento Next Level Week da Rocketseat
-
-[Clique aqui para acessar](https://yaguu.github.io/nlw_esports)
+[Clique aqui para acessar](https://yaguu.github.io/hellween/)
 
 ## Tecnologias:
 
